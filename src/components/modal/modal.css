@@ -1,0 +1,27 @@
+.modal{
+    position: fixed;
+    width: 70%;
+    height: 370px;
+    top: 30%;
+    left: 16%;
+    border:1px solid whitesmoke;
+    box-shadow: 1px 1px 1px black;
+    padding: 16px;
+    box-sizing: border-box;
+    z-index: 500;
+    background-color: white;
+    display: block;
+    transition: all .40s ease-out;
+}
+@media (max-width:320px){
+    .modal p h1{
+        font-size: 25px;
+    }
+    .modal{
+        top: 7%;
+        height: 440px;
+    }
+}
+button{
+    margin-left: 20px;
+}

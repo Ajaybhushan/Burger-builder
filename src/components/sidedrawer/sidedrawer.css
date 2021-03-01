@@ -1,0 +1,23 @@
+.sidedrawer{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    height: 100%;
+    display: none;
+    width: 200px;
+    transition: all .20s ease-out;
+}
+
+@media (max-width:320px){
+   .sidedrawer{
+       z-index: 100;
+       display: block;
+   }
+   .sidedrawer img{
+       width: 100px;
+       height: 80px;
+       margin-left: 24%;
+       margin-top: 30%;
+   }
+}

@@ -1,0 +1,40 @@
+.navigation ul{
+    display: flex;
+    list-style: none;
+}
+
+.navigation a{
+    color: blanchedalmond;
+    text-decoration: none;
+    padding: 18px;
+    box-sizing: border-box;
+}
+
+.navigation a:hover{
+    border-bottom: 4px solid royalblue;
+    background-color: chocolate;
+}
+.Active{
+    border-bottom: 4px solid royalblue;
+    background-color: chocolate;
+}
+
+
+@media (max-width:320px){
+    .navigation ul {
+        display: block;
+    }
+    .navigation a{
+        color: black;
+        box-sizing: border-box;
+    }
+    .navigation li{
+        margin-top: 20px;
+    }
+    .navigation a:hover,
+    .navigation a:active{
+        color: blueviolet;
+        border-bottom: 0px;
+        background-color: transparent;
+    }
+}
